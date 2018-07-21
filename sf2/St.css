@@ -1,0 +1,426 @@
+@font-face
+{
+	font-family:'ms';
+	src:url('fonts/Museo_Slab.woff'),
+	    url('fonts/Museo_Slab.ttf');
+}
+@font-face
+{
+	font-family:'mst';
+	src:url('fonts/Museo 100.woff'),
+	    url('fonts/Museo 100.ttf');
+}
+body
+{
+	margin:0;
+	background-color:rgb(185,240,240);
+	margin-bottom:3vw;
+}
+header
+{
+	background-image:url(Header.png);
+	background-size:100% 100%;
+	background-position:no-repeat;
+	height:5vw;
+	box-shadow:0vw 0vw 0.5vw 0vw rgb(10,10,10);
+}
+#LearnBoost
+{
+	position:absolute;
+	top:0;
+	left:0;
+	height:5vw;
+	box-sizing:border-box;
+}
+#Tour, #ForS, #Blog
+{
+	height:5vw;
+	box-sizing:border-box;
+	border-color:rgba(100,100,100,0.8);
+	border-style:solid;
+	position:absolute;
+	top:0;	
+	color:white;
+	font-weight:bold;
+	background-color:rgba(0,0,0,0);
+	font-size:1vw;
+	cursor:pointer;
+}
+#Tour
+{
+	left:32vw;
+	width:5vw;
+    border-width:0 0.1vw 0;
+}
+#ForS
+{
+	left:37vw;
+	width:10vw;
+	border-width:0;
+}
+#Blog
+{
+	left:47vw;
+	width:5vw;
+	border-width:0 0.1vw 0;
+}
+#Tour:hover, #ForS:hover, #Blog:hover
+{
+	background-color:rgba(0,0,0,0.1);	
+}
+#joinnow, #log
+{
+	height:2.5vw;
+	border:0.1vw outset black;
+	border-radius:0.2vw;
+	background-color:rgb(48,48,48);
+	color:white;
+	position:absolute;
+	top:1.2vw;
+	color:white;
+	font-weight:bold;
+	background-color:rgba(200,200,200,0.01);
+	font-size:1vw;
+    box-sizing:border-box;
+    padding-bottom:0.1vw;
+	cursor:pointer;
+}
+#joinnow
+{
+	left:68vw;
+	width:9vw;
+	text-align:left;
+	padding-left:0.8vw;
+}
+#log
+{
+	left:78.5vw;
+	width:5vw;
+}
+#joi
+{
+	position:absolute;
+	top:1.8vw;
+    left:74.5vw;	
+	height:1.3vw;
+}
+#joinnow:hover, #log:hover
+{
+	background-color:rgba(200,200,200,0.15);
+}
+#feed
+{
+	border:none;
+	box-sizing:border-box;
+	height:7vw;
+	width:2.1vw;
+	background-image:url(feed.png);
+	background-size:100% 100%;
+	position:fixed;
+	top:22vw;
+	left:0;
+	cursor:pointer;
+}
+#one
+{
+	height:33vw;
+	width:66vw;
+	margin:auto;
+	border:0.1vw solid white;
+    box-sizing:border-box;
+	margin-top:1.5vw;
+	background-image:url(one.png);
+	background-position:fixed;
+	background-size:100% 100%;
+	border-radius:0.5vw;
+	box-shadow:0vw 0.1vw 0.2vw 0.1vw rgba(100,100,100,0.2);
+}
+#head1
+{
+	font-family:ms;
+	font-size:3.5vw;
+	font-weight:bold;
+	color:rgb(206,38,84);
+	text-align:center;
+	position:absolute;
+	top:9vw;
+	left:20vw;
+	width:32vw;
+}
+#cont1
+{
+	font-family:mst;
+	font-size:1.8vw;
+	color:rgb(70,70,70);
+	position:absolute;
+	top:18vw;
+	left:20vw;
+	text-align:center;
+	width:32vw;
+}
+#demo, #video
+{
+	height:3.8vw;
+	width:10.5vw;
+	border-radius:0.3vw;
+	position:absolute;
+	top:26vw;
+	background-size:100% 100%;
+	border:none;
+}
+#demo
+{
+	left:25.5vw;
+	background-image:url(demo.png);
+}
+#video
+{
+	left:37.5vw;
+	background-image:url(video.png);
+}
+#demo:hover
+{
+	background-image:url(demoh.png);
+	cursor:pointer;
+}
+#video:hover
+{
+	background-image:url(videoh.png);
+	cursor:pointer;
+}
+#bold
+{
+	font-weight:bold;
+}
+#flap
+{
+	position:absolute;
+	left:80.8vw;
+	top:8vw;
+	height:5.8vw;
+	width:2.7vw;
+}
+#form
+{
+    padding:1vw;
+	box-sizing:border-box;
+	height:23vw;
+	width:22.6vw;
+	position:absolute;
+	top:14.5vw;
+	left:58.9vw;
+	line-height:1.7vw;
+}
+#fb
+{
+	background-image:url(fb.png);
+	background-size:100% 100%;
+	box-sizing:border-box;
+	border:none;
+	height:1.8vw;
+	width:9.8vw;
+	position:absolute;
+	top:12.1vw;
+	left:59.9vw;
+	cursor:pointer;
+}
+#gp
+{
+	background-image:url(gp.png);
+	background-size:100% 100%;
+	box-sizing:border-box;
+	border:none;
+	height:3vw;
+	width:7vw;
+	height:1.8vw;
+	width:8.8vw;
+	position:absolute;
+	top:12.1vw;
+	left:71.2vw;
+	cursor:pointer;
+}
+#box1, #box2, #box3, #box4, #box5
+{
+	font-family:Georgia;
+	font-size:0.8vw;
+    font-style:oblique;
+	color:black;
+}
+#box1
+{
+	position:absolute;
+}
+#box2
+{
+	position:relative;
+	left:11vw;
+}
+#fname, #lname
+{
+	width:9vw;
+	height:2vw;
+	box-sizing:border-box;
+	font-size:1.2vw;
+}
+#pwd, #email
+{
+	width:13vw;
+	height:2vw;
+	box-sizing:border-box;
+    font-size:1.2vw;
+}
+#box5
+{
+	position:relative;
+	top:1vw;
+}
+#box6
+{
+	font-family:Helvetica;
+	font-style:normal;
+	color:grey;
+	font-size:0.8vw;
+	position:relative;
+	top:2vw;
+}
+#cbox
+{
+	height:1vw;
+	width:1vw;
+}
+#iam
+{
+	width:11vw;
+	height:2.5vw;
+	background-image:url(dd.png);
+	background-size:100% 100%;
+	border:none;
+	padding-left:0.5vw;
+	font-size:1vw;
+}
+#terms:link, #terms:visited
+{
+	text-decoration:none;
+	color:blue;
+}
+#terms:hover
+{
+	text-decoration:underline;
+}
+#join
+{
+	height:3vw;
+	width:8vw;
+	border:none;
+	position:absolute;
+	top:19.5vw;
+	left:13vw;
+	background-image:url(join.png);
+	background-size:100% 100%;
+	cursor:grab;
+}
+#join:hover
+{
+	background-image:url(joinh.png);
+	cursor:pointer;
+}
+#two
+{
+	height:43vw;
+	width:66vw;
+	margin:auto;
+	border:0.1vw solid white;
+	border-top:none;
+    box-sizing:border-box;
+	margin-top:1.4vw;
+	background-image:url(two.png);
+	background-size:100% 100%;
+	border-radius:0.5vw;
+    box-shadow:0vw 0.1vw 0.2vw 0.1vw rgba(100,100,100,0.2);
+}
+#head2
+{
+	font-family:ms;
+	font-size:2vw;
+	color:rgb(206,38,84);
+	z-index:1;
+	position:absolute;
+	top:43vw;
+	left:20vw;
+}
+#cont2
+{
+	height:40vw;
+	width:30vw;
+	font-family:arial;
+	font-size:1.3vw;
+	z-index:1;
+	position:absolute;
+	top:46.4vw;
+	left:28vw;
+}
+#sub2:link, #sub2:visited
+{
+	font-size:1.6vw;
+	color:black;
+	text-decoration:none;
+}	
+#sub2:hover
+{
+	text-decoration:underline;
+}
+#lm:link, #lm:visited
+{
+	font-size:1vw;
+	color:rgb(92,134,209);
+	text-decoration:none;
+	font-weight:bold;
+}	
+hr
+{
+	border: 0.01vw solid rgb(110,110,110);
+	height:0.05vw;
+	background-color:rgb(110,110,110);
+}
+footer
+{
+	width:66vw;
+	margin:auto;
+	margin-top:3vw;
+}
+table
+{
+	font-family:arial;
+	font-size:0.8vw;
+}
+th
+{
+	padding:0;
+	text-align:left;
+	padding-left:2.5vw;
+	padding-bottom:0.8vw;
+	color:rgb(55,79,96);
+}
+td
+{
+	padding:0.1vw;
+	padding-left:2.5vw;
+	color:rgb(74,106,130);
+	cursor:pointer;
+}
+#fblike
+{
+	background-image:url(fblike.png);
+	background-size:100% 100%;
+	border:none;
+	height:1.6vw;
+	width:7.5vw;
+	position:absolute;
+	top:88.2vw;
+	left:41.5vw;
+}
+#fblike:hover
+{
+	background-image:url(fblikeh.png);
+	cursor:pointer;	
+}

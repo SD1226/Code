@@ -1,0 +1,157 @@
+@font-face
+{
+	font-family:'seg';
+	src:url('fonts/segoesc.eot?#'),
+	    url('fonts/segoesc.ttf');
+}
+@font-face
+{
+	font-family:'cob';
+	src:url('fonts/CaslonOpnfaceBT.eot?#'),
+	    url('fonts/CaslonOpnfaceBT.ttf');	
+}
+@font-face
+{		
+	font-family:'com';
+	src:url('fonts/comici.eot?#'),
+	    url('fonts/comici.ttf');		
+}
+html
+{
+height:100%;
+}
+body
+{
+	height:100%;
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	margin:0px;
+}
+.navbar
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	margin:0px;
+	table-layout:fixed;
+}
+th
+{
+	padding:1vw;
+	font-size:2.5vh;
+	background-color:rgb(0,100,100);
+	color:white;
+	overflow:hidden;
+}
+.thispage
+{
+	background-color:rgb(0,200,200);
+	color:black;
+}
+div
+{
+	text-align:center;
+    width:90vw;
+    margin:auto;
+    margin-top:10vh;
+}
+a:link
+{
+text-decoration:none;
+color:white;
+}
+a:visited
+{
+	color:white;
+	text-decoration:none;
+}
+a:hover
+{
+	color:yellow;
+}
+a:active
+{
+	text-decoration:underline;
+}
+@keyframes exp
+{
+	from
+	{
+		width:0px;
+	}
+	to
+	{
+		width:50vw;
+		max-width:350px;
+	}		
+}
+#mypic
+{
+	width:50vw;
+	max-width:350px; 
+	border-radius:3vw;
+	border:1.5vh groove rgb(200,150,200);
+    animation:exp 3s;
+}
+#myname
+{
+	font-family:seg;
+	font-size:9vh;
+}
+h1
+{
+	font-size:6.5vh;
+	font-family:cob;
+}
+@keyframes ann
+{
+	from
+	{
+		color:rgba(255,255,255,0);
+	}
+	to
+	{
+		color:rgba(255,255,255,1);
+	}
+}
+#about
+{
+	color:white;
+	font-size:4.5vh;
+	font-family:com;
+	animation:ann 5s;
+}
+#interest
+{
+	font-size:4.5vh;
+	color:white;
+	font-family:com;
+	animation:ann 5s;
+}
+@keyframes con
+{
+	from
+	{
+		color:rgba(0,0,0,0);
+	}
+	to
+	{
+		color:rgba(0,0,0,1);
+	}
+}
+#contact
+{
+	font-size:3.5vh;
+	background-color:white;
+	width:80vw;
+	max-width:500px;
+	border:0.5vw double rgb(0,150,150);
+	margin:auto;
+	animation:con 5s;
+}
+.icon
+{
+	width:3.5vh;
+}
